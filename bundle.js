@@ -1,11 +1,11 @@
 "use strict";
 
-// ===================== Object Short Syntax (Sintaxe curta de Objecto =====================
+// Object shor syntax
 var nome = 'Diego';
 var idade = 23;
 var usuario = {
   nome: nome,
   idade: idade,
-  empresa: 'Rocketseat'
+  cidade: 'Rio do Sul'
 };
 console.log(usuario);
