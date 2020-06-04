@@ -90,11 +90,11 @@
 /*!********************!*\
   !*** ./funcoes.js ***!
   \********************/
-/*! exports provided: soma */
+/*! exports provided: default, sub, mult */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"soma\", function() { return soma; });\nfunction soma(a, b) {\n  return a + b;\n}\n\n//# sourceURL=webpack:///./funcoes.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return soma; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sub\", function() { return sub; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"mult\", function() { return mult; });\nfunction soma(a, b) {\n  return a + b;\n}\nfunction sub(a, b) {\n  return a - b;\n}\nfunction mult(a, b) {\n  return a * b;\n}\n\n//# sourceURL=webpack:///./funcoes.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _funcoes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./funcoes */ \"./funcoes.js\");\n\nconsole.log(Object(_funcoes__WEBPACK_IMPORTED_MODULE_0__[\"soma\"])(1, 4));\n\n//# sourceURL=webpack:///./main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _funcoes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./funcoes */ \"./funcoes.js\");\n//Import / Export\n// import sum, {sub} from './funcoes';&\n// import sub from './funcoes';\n\nconsole.log(_funcoes__WEBPACK_IMPORTED_MODULE_0__); // console.log(funcs.default(11,85));\n// console.log(funcs.sub(1,6));\n// console.log(funcs.mult(1,6));\n\n//# sourceURL=webpack:///./main.js?");
 
 /***/ })
 
