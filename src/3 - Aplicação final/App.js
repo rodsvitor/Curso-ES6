@@ -25,7 +25,7 @@ export default class App {
   }
 
   async addRepository(event) {
-    event.preventDefault();
+    event.preventDefault(); // alguma coisa pra não precisar recarregar a página. Ler mais sobre.
 
     const repoInput = this.inputEl.value;
     if (repoInput.length > 0) {
